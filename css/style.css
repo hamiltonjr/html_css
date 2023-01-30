@@ -100,6 +100,11 @@ nav a#atual {
     text-decoration: none;
 }
 
+audio {
+    background-color: var(--cor_de_fundo);
+    display: block;
+    margin: auto;
+}
 
 article {
     padding: 20px;
