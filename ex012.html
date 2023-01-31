@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML audio</title>
+    <title>Video formats</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -13,13 +13,27 @@
 <body>
     <main id="container">
         <header>
-            <h1>HTML audio</h1>
+            <h1>Video formats</h1>
         </header>
 
         <section>
             <article>
-                <img class="img_pq" src="./images/tripod.jpg" alt="">
-                <audio src="./media/war_of_worlds.mp3" controls></audio>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, numquam alias ipsam itaque laudantium tenetur vel? Aspernatur vel, suscipit porro nobis ab numquam, hic inventore qui atque recusandae harum animi?
+                </p>
+                <video width="320" controls>
+                    <source src="./media/cups.webm" type="video/webm">
+                    <source src="./media/cups.m4v" type="video/m4v">
+                    <source src="./media/cups.ogv" type="video/ogv">
+                    <source src="./media/cups.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+
+            <article>
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/xJG46FCoFAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
             </article>
         </section>
 

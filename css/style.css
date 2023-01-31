@@ -55,6 +55,13 @@ h2 {
     margin: auto;
 }
 
+.video_pq {
+    min-width: 300px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 #img_eu { 
     border-radius: 70px; 
 }
