@@ -38,12 +38,13 @@ header {
     padding-top: 40px;
 }
 
-header p {
+header > p {
     font-family: var(--fonte-padrao);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
     font-size: 1.2em;
     color: white;
     max-width: 500px;
+    padding: 0px 100px 20px 100px;
     margin: auto;
     margin-bottom: 20px;
 }
