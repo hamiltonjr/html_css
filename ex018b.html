@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <style>
-        h1 {
-            @font-face {
-                font-family: 'Love';
-                src: url('love_letters/Love\ Letters.ttf')
-                format ('truetype'); 
-            }
+        @font-face {
+            font-family: 'Old London';
+            src: url('./fonts/OldLondon.ttf') format('truetype'),
+                 url('./fonts/OldLondonAlternate.ttf') format('truetype'),
+                 url('./fonts/Olondon_.otf') format('opentype'),
+                 url('./fonts/Olondona.otf') format('opentype');
+        }
+
+        h1, p, a {
+            font-family: 'Old London';
         }
     </style>
 </head>

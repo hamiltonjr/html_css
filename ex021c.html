@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping box</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        p, a {
+            color: white;
+        }
+
+        header {
+            box-shadow: -5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+        }
+
+        section {
+            background-color: blue;
+            box-shadow: 5px -5px 5px 1px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        article {
+            background-color: green;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: chocolate;
+            box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="container">
+        <header>
+            <h1>Grouping box</h1>
+            <p>This is the header</p>
+        </header>
+
+        <section>
+            <p>This is a section</p>
+            <article>
+                <p>
+                    This is a article (padding allows to see that article is in the section)
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            <p>This is a footer</p>
+            <a href="./index.html">INDEX</a>
+        </footer>
+    </main>
+
+</body>
+</html>

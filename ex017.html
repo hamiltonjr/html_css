@@ -9,6 +9,42 @@
     <link rel="shortcut icon" href="./images/vscode-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@100&display=swap');
+
+        body {
+            font-family: 'Work Sans';
+            font-weight: bolder;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: bolder;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        /* indented text */
+        p {
+            font-size: 1em;
+            font-weight: normal ;
+            text-indent: 40px;
+        }
+
+        footer a {
+            font-size: 0.7em;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            font-size: 1em;
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,15 +53,21 @@
             <h1>Working with fonts</h1>
         </header>
 
+        <!-- Text is left-aligned by default -->
         <section>
             <article>
-                <p>
+                <h2>Exercício 1</h2>
+                <p style="text-align: right;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam architecto id non odit aliquam necessitatibus unde reprehenderit. Optio obcaecati veniam incidunt delectus possimus, quas facilis provident iste? Harum, ducimus.
                 </p>
-                <p>
+
+                <h2>Exercício 2</h2>
+                <p style="text-align: center;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam architecto id non odit aliquam necessitatibus unde reprehenderit. Optio obcaecati veniam incidunt delectus possimus, quas facilis provident iste? Harum, ducimus.
                 </p>                
-                <p>
+
+                <h2>Exercício 3</h2>
+                <p style="text-align: justify;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam architecto id non odit aliquam necessitatibus unde reprehenderit. Optio obcaecati veniam incidunt delectus possimus, quas facilis provident iste? Harum, ducimus.
                 </p>
             </article>
@@ -34,7 +76,6 @@
                 <a href="./index.html">INDEX</a>
             </footer>
         </section>
-
 
     </main>
 </body>
