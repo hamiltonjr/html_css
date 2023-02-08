@@ -26,8 +26,9 @@ header {
 #container {
     border: 1px solid var(--cor_da_fonte);
     box-shadow: 5px 5px 15px rgba(136, 189, 93, 0.6);
-    border-radius: 10px;
     background-color: var(--cor_container);
+    border-radius: 10px;
+    overflow-x: auto;
     width: var(--largura);
     margin: 20px auto;
     padding: 10px;
