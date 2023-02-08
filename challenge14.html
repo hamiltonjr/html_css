@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell merging 2</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        table {
+            margin: auto;
+        }
+
+        caption {
+            font-size: 14px;
+            margin: 5px;
+        }
+
+        td {
+            border: 1px solid black;
+            min-width: 50px;
+            padding: 5px;
+        }
+
+        th {
+            background-color: purple;
+            border: 1px solid white;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .area {
+            text-align: center;
+        }
+
+        .number {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="container">
+        <header>
+            <h1>Cell merging 2</h1>
+        </header>
+
+        <section>
+            <table>
+                <caption>I couldn't build the table with all details</caption>
+                <tr>
+                    <th >Área</th>
+                    <th>Disciplinas</th>
+                    <th colspan="2">Notas</th>
+                    <th>Média</th>
+                </tr>
+                <tr>
+                    <td class="area" rowspan="3">Exatas</td>
+                    <td>Matemática</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                </tr>
+
+                <tr>
+                    <th colspan="4">Média de Exatas</th>
+                    <th class="number">0.0</th>
+                </tr>
+
+                <tr>
+                    <td class="area" rowspan="2">Humanas</td>
+                    <td>História</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                </tr>
+
+                <tr>
+                    <th colspan="4">Média de Humanas</th>
+                    <th class="number">0.0</th>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <a href="./index.html">INDEX</a>
+        </footer>
+    </main>
+</body>
+</html>
