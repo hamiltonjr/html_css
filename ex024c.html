@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test with iframes</title>
+    <title>Internal iframes</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <style>
@@ -14,7 +14,7 @@
             overflow: auto;
             width: 520px;
             height: 390px;
-            border: 1px solid black;
+            border: 2px solid black;
             display: block;
             margin: auto;
         }
@@ -24,18 +24,30 @@
 <body>
     <main id="container">
         <header>
-            <h1>Test with iframes</h1>
+            <h1>Internal iframes</h1>
         </header>
 
         <section>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequuntur tempore unde dolorem ullam culpa repudiandae laudantium? Ipsa minus, neque fugit qui aliquam alias consequatur, provident, saepe fuga beatae nemo!
             </p>
-            <iframe src="./ex010b.html" frameborder="0">
+
+            <ul>
+                <li><a href="./ex024a.html" target="frame">exercício 24a</a></li>
+                <li><a href="./ex024b.html" target="frame">exercício 24b</a></li>
+            </ul>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequuntur tempore unde dolorem ullam culpa repudiandae laudantium? Ipsa minus, neque fugit qui aliquam alias consequatur, provident, saepe fuga beatae nemo!
+            </p>
+
+            <iframe name="frame" src="./ex024a.html"
                 <p>Infelizmente seu navegador não suporta frames!</p>
             </iframe>
 
-            <p></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam iste atque dolore quis labore error tempora porro culpa doloribus voluptates itaque, placeat ex veritatis voluptate minus omnis maiores deserunt?
+            </p>
         </section>
 
         <footer>
