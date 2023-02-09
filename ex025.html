@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        input {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+
+        label {
+            margin-left: 120px;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            font-size: 15px;
+            padding: 5px;
+            margin-left: 240px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="container">
+        <header>
+            <h1>Forms</h1>
+        </header>
+
+        <section>
+            <form action="cadastro.php" method="get">
+                <p>
+                    <label for="user">User</label>  
+                    <input type="text" name="user" id="user" minlength="5" maxlength="256" required>
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" minlength="8" maxlength="16" required>
+                </p>
+                <button>Send</button>
+            </form>    
+        </section>
+
+        <footer>
+            <a href="./index.html">INDEX</a>
+        </footer>
+    </main>
+
+</body>
+</html>
