@@ -9,27 +9,23 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <style>
-        input {
-            background-color: lightblue;
-            font-weight: bold;
+        div {
+            background-color: aqua;
+            margin-left: 250px;
+            padding: 5px 20px;
         }
 
-        label {
-            margin-left: 120px;
-        }
-
-        button {
+        .send {
             background-color: red;
             color: white;
-            font-size: 15px;
             padding: 5px;
-            margin-left: 240px;
         }
 
-        button:hover {
-            background-color: white;
-            color: red;
-        }
+        .reset {
+            background-color: blue;
+            color: black;
+            padding: 5px;
+        } 
     </style>
 </head>
 
@@ -41,15 +37,22 @@
 
         <section>
             <form action="cadastro.php" method="get">
-                <p>
-                    <label for="user">User</label>  
-                    <input type="text" name="user" id="user" minlength="5" maxlength="256" required>
-                </p>
-                <p>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" minlength="8" maxlength="16" required>
-                </p>
-                <button>Send</button>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" 
+                        pattern="^[0-9]{2}\([0-9]{2}\)[0-9]{4,5}-[0-9]{4}$"
+                        required>
+                </div>
+
+                <div>
+                    <input class="send" type="submit" value="Send">
+                    <input class="reset" type="reset" value="Reset">
+                </div>
             </form>    
         </section>
 
